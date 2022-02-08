@@ -26,6 +26,7 @@ canvas {
     display: flex;
     width: 804px;
     padding: 1rem;
+    position: relative;
 }
 
 .toolbox > * {
@@ -42,6 +43,25 @@ canvas {
     cursor: pointer;
 }
 
+#brush {
+    width: 94px;
+}
+
+#rect {
+    width: 150px;
+}
+
+#eraser {
+    width: 100px;
+}
+
 .toolbox > *:last-child {
     margin-left: auto;
+}
+
+.size-adjust {
+    position: absolute;
+    top: -22px;
+    left: 70px;
+    background-color: transparent;
 }
